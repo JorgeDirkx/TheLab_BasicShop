@@ -8,11 +8,11 @@ public class Computer {
         this.types = types;
     }
 
-    double priceOfDonut(){
+    double priceOfComputer(){
         return this.types.getPrice();
     }
 
-    String donutInfo(){
+    String computerInfo(){
         return this.types.name() +"computer";
     }
 }
